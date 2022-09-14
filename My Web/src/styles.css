@@ -14,18 +14,18 @@
 /* Variables */
 
 :root {
-    --main-color: #647bff;
-    --body-color: #10111f;
-    --container-color: #090a1a;
-    --heading-color: #222321;
-    --box-color: #0d0f26;
+    --main-color: #8ef6e4;
+    --body-color: #9c6253;
+    --container-color: #9896f1;
+    --heading-color:  #d59bf6;
+    --box-color: #edb1f1;
     --bg-color: #fff;
 
 }
 
 body {
     color: var(--bg-color);
-    background: var(--body-color);
+    background: #607a86;
 }
 
 img {
