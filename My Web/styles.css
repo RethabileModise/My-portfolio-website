@@ -14,18 +14,18 @@
 /* Variables */
 
 :root {
-    --main-color: #8ef6e4;
-    --body-color: #9c6253;
-    --container-color: #9896f1;
-    --heading-color:  #d59bf6;
+    --main-color: #6554AF;
+    --body-color: #9575DE;
+    --container-color: #756881;
+    --heading-color:  #A084CA;
     --box-color: #edb1f1;
-    --bg-color: #fff;
+    --bg-color: #B38EA9;
 
 }
 
 body {
     color: var(--bg-color);
-    background: #607a86;
+    background: #ECF2FF;
 }
 
 img {
@@ -76,7 +76,7 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: 600;
-    color: mediumslateblue;
+    color: #674188;
 
 }
 
@@ -114,12 +114,12 @@ header {
     font-size: 0.94rem;
     padding: 4px 8px;
     border-radius: 0.2rem;
-    color: #fff;
+    color: #5F264A;
 }
 
 .nav-link:hover {
     color: black;
-    background: mediumslateblue;
+    background: #9376E0;
     transition: 0.3s all linear;
 }
 
@@ -138,7 +138,7 @@ header {
 
 .menu-icon div {
     display: block;
-    background: mediumslateblue;
+    background: #9376E0;
     height: 2px;
     width: 24px;
     transition: 0.3s;
@@ -210,11 +210,11 @@ header {
     align-items: center;
     column-gap: 0.5rem;
     font-size: 1.1rem;
-    color: mediumslateblue;
+    color: #643A6B;
 }
 
 .home-text .color {
-    color: mediumslateblue;
+    color: #643A6B;
 }
 
 .home-text h3::before {
@@ -225,7 +225,7 @@ header {
     left: -35px;
     width: 20px;
     height: 2px;
-    background: mediumslateblue;
+    background: rgb(166, 173, 155);
 
 }
 
@@ -341,7 +341,7 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 15px;
-    background: cornflowerblue;
+    background: #E3ACF9;
     border-radius: 0.4rem;
     transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
 
@@ -364,7 +364,8 @@ header {
 .service-box h2 {
     font-size: 1.1rem;
     margin: 0.5rem 0;
-    color: rgb(94, 10, 167)
+    color: #C3ACD0;
+
 }
 
 .service-box p {
@@ -403,7 +404,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: hsl(243, 45%, 16%, 0.7);
+    background: #5F264A;
 }
 
 .portfolio-overlay h2 {
@@ -422,7 +423,7 @@ header {
 }
 
 .portfolio-overlay .bx:hover {
-    background: mediumblue;
+    background: #C3ACD0;
     transition: 0.3s all linear;
 
 }
@@ -442,7 +443,7 @@ header {
 
 .project-box {
     padding: 20px 10px;
-    background-color: mediumslateblue;
+    background-color: #;
     border-radius: 0.4rem;
     text-align: center;
 }
@@ -472,7 +473,7 @@ header {
     font-size: 0.9rem;
     padding: 15px;
     color: var(--box-color);
-    background-color: rgb(92, 43, 155);
+    background-color:;
     /* background: ; */
     border-radius: 0.4rem;
 }
@@ -579,7 +580,7 @@ header {
   }
   
   .bar{
-    background-color: #EEE;
+    background-color: #E5D1FA;
     padding: 2px;
     border-radius: 15px;
     margin-bottom: 5px;
@@ -601,7 +602,7 @@ header {
   }
   
   .bar.front::before{
-    background-color: #10122c;
+    background-color: #BA94D1;
   }
   .bar.back::before{
     background-color: #607a86;
